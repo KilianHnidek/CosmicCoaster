@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  transition-duration: 300ms;
+}
+
+:root {
+  scroll-behavior: smooth;
+  vertical-align: baseline;
+  background-color: transparent;
+  /* font for landing page main/second. heading */
+  --ff-mainHeading: "Poppins", sans-serif;
+  --ff-subHeading: "Sathu", sans-serif;
+  /* main font family */
+  font-family: "Times New Roman", sans-serif;
+  /* clamp resizes according to window size */
+  --fs-mainHeading: clamp(1.5rem, 7vw, 7rem);
+  --fs-subHeading: clamp(1rem, 3vw, 4rem);
+  /* three colors for the website */
+  /* https://color.adobe.com/create/color-wheel */
+  --ff-mainColor: #ffffff;
+  --ff-secondaryColor: #2f2f2f;
+  --ff-tertiaryColor: #c4c4c4;
+}
+
+/* --<>-- --<>-- --<>-- --<>-- --<>-- --<>-- */
+/* to use @mixing functions type */
+/* @include NAMEofFunction(parameter if necessary); */
+
+/*# sourceMappingURL=index.css.map */
