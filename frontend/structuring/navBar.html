@@ -1,18 +1,39 @@
 <ul class="menu">
     <li onclick="window.local.href = ''">
         <a href="">Home</a>
+        <img src="../../resources/CosmicCoasters_RGB.svg" alt="svg" width="50px" height="50px">
+
     </li>
-    <li onclick="window.local.href = ''">
-        <a href="">Projects</a>
-    </li>
-    <li onclick="window.local.href = ''">
-        <a href="">Team</a>
+    <li onclick="window.local.href = ''" class="dropdown-toggle">
+        <a href="">About ▼</a>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#">
+                    Project ONE
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Project TWO
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Project THREE
+                </a>
+            </li>
+        </ul>
     </li>
     <li onclick="window.local.href = ''">
         <a href="">Contact</a>
     </li>
-    <li onclick="window.local.href = ''">
-        <a href="">About</a>
-    </li>
 </ul>
+<form onsubmit="event.preventDefault();" role="search">
+    <input id="search" type="search" placeholder="Search..." autofocus required/>
+    <button type="reset">Go</button>
+</form>
+
+
+
+
 
