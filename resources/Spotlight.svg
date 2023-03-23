@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.897" y="21.681" width="498.804" height="321.172" style="stroke: rgb(0, 0, 0);"/>
+  <g id="Illustration" transform="matrix(1, 0, 0, 1, 100, 42)">
+    <circle cx="141.7" cy="141.7" r="141.7"/>
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="126.7482" y1="215.6849" x2="157.8522" y2="69.3521" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 140.8527 -58.9935)">
+      <stop offset="0.1028" style="stop-color:#FFFFFF"/>
+      <stop offset="0.171" style="stop-color:#F7F7F7"/>
+      <stop offset="0.2777" style="stop-color:#E1E1E1"/>
+      <stop offset="0.4097" style="stop-color:#BCBCBC"/>
+      <stop offset="0.5619" style="stop-color:#898989"/>
+      <stop offset="0.7309" style="stop-color:#494948"/>
+      <stop offset="0.9" style="stop-color:#000000"/>
+    </linearGradient>
+    <path class="st0" d="M88.9,194.6C74.7,180.5,67,161.7,67,141.7c0-20,7.8-38.8,21.9-52.9S121.8,67,141.7,67c20,0,38.8,7.8,52.9,21.9 s21.9,32.9,21.9,52.9c0,20-7.8,38.8-21.9,52.9c-14.1,14.1-32.9,21.9-52.9,21.9C121.8,216.5,103,208.7,88.9,194.6z M192.5,90.9 c-28-28-73.6-28-101.6,0c-28,28-28,73.6,0,101.6c28,28,73.6,28,101.6,0C220.5,164.5,220.5,118.9,192.5,90.9z" style="fill: url(#SVGID_1_);"/>
+    <path class="st1" d="M53.7,229.6c-2.5-2.5-0.5-7.1,2.7-14.7c2.2-5.2,5-11.6,7.2-19.4c4.1-14.2,5.4-29.2,3.9-44.8l2.9-0.3 c1.5,15.9,0.1,31.3-4,45.9c-2.3,8-5.1,14.5-7.3,19.7c-2.3,5.3-4.4,10.3-3.3,11.4c0,0,0,0,0,0c0.4,0.4,2.4,1.2,10.5-3.5 c5.7-3.3,12.8-8.3,19.6-13.1c16-11.3,34.9-27.5,56.1-48.2c3.5-3.4,7.2-7,10.6-10.5l2.1,2.1c-3.4,3.4-7.1,7.1-10.6,10.5 c-21.4,20.8-40.4,37.1-56.5,48.5c-18.1,12.8-29.5,20.3-33.8,16.4C53.7,229.7,53.7,229.7,53.7,229.6z" style="fill: rgb(255, 255, 255);"/>
+    <path class="st1" d="M165.1,189.7l32.4-58.1c3.3-5.9,6.8-11.6,10.7-17l36.1-51.4c0.2-0.3-0.1-0.6-0.4-0.4l-51.4,36.1 c-5.5,3.9-11.2,7.4-17,10.7l-58.1,32.4c-0.3,0.2-0.1,0.6,0.2,0.5l37.9-10.2l2.1,2.1l-6.2,1.7l1.5,5.7l-3.5,2.1l1.4,1.4L148,148 l5.5,5.5l5.5,5.5l2.8-2.7l1.4,1.4l2.1-3.5l5.7,1.5l1.7-6.2l2.1,2.1l-10.2,37.9C164.4,189.8,164.9,190,165.1,189.7z" style="fill: rgb(255, 255, 255);"/>
+  </g>
+  <g id="Text_Vorlage" class="st2" transform="matrix(1, 0, 0, 1, 367.869392, 108.299996)" style="display: none;">
+    <g class="st3" style="opacity: 0.43;">
+      <text transform="matrix(-0.4008 -0.9162 0.9162 -0.4008 55.6665 191.361)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 8.5px 0px;">C</text>
+      <text transform="matrix(-0.2127 -0.9771 0.9771 -0.2127 47.4861 172.872)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 9.9125px 0px;">O</text>
+      <text transform="matrix(-1.265000e-02 -0.9999 0.9999 -1.265000e-02 43.1512 152.823)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 7.0875px 0px;">S</text>
+      <text transform="matrix(0.1882 -0.9821 0.9821 0.1882 42.8924 133.3737)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 11.3375px 0px;">M</text>
+      <text transform="matrix(0.3554 -0.9347 0.9347 0.3554 47.9315 110.6954)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 4.25px 0px;">I</text>
+      <text transform="matrix(0.488 -0.8729 0.8729 0.488 50.7473 102.1465)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 8.5px 0px;">C</text>
+      <text transform="matrix(0.6084 -0.7936 0.7936 0.6084 60.9524 84.8223)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 4.25px 0px;"> </text>
+      <text transform="matrix(0.6986 -0.7155 0.7155 0.6986 64.9826 79.0476)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 8.5px 0px;">C</text>
+      <text transform="matrix(0.8353 -0.5498 0.5498 0.8353 79.0321 64.5929)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 9.9125px 0px;">O</text>
+      <text transform="matrix(0.9257 -0.3782 0.3782 0.9257 95.7199 53.701)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 9.9125px 0px;">A</text>
+      <text transform="matrix(0.9865 -0.1635 0.1635 0.9865 115.9777 45.59)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 7.0875px 0px;">S</text>
+      <text transform="matrix(0.9993 3.797000e-02 -3.797000e-02 0.9993 135.4226 42.2896)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 8.5px 0px;">T</text>
+      <text transform="matrix(0.9771 0.2127 -0.2127 0.9771 154.6982 43.0014)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 8.5px 0px;">E</text>
+      <text transform="matrix(0.9162 0.4008 -0.4008 0.9162 173.5112 47.2331)" class="st1 st4 st5" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32px; line-height: 51.2px; perspective-origin: 8.5px 0px;">R</text>
+      <text transform="matrix(0.8079 0.5893 -0.5893 0.8079 192.1454 55.3913)" class="st1 st4 st6" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Bold; font-size: 32.0001px; line-height: 51.2002px; perspective-origin: 7.0875px 0px;">S</text>
+      <text transform="matrix(0.8955 0.445 -0.445 0.8955 85.6596 240.3972)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">P</text>
+      <text transform="matrix(0.9347 0.3554 -0.3554 0.9347 96.7226 245.7863)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px; perspective-origin: 5.6625px 0px;">O</text>
+      <text transform="matrix(0.9771 0.2127 -0.2127 0.9771 108.2867 250.5231)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 7.0875px 0px;">W</text>
+      <text transform="matrix(0.9961 8.845000e-02 -8.845000e-02 0.9961 125.0052 254.0822)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px; perspective-origin: 4.25px 0px;">E</text>
+      <text transform="matrix(0.9999 -1.265000e-02 1.265000e-02 0.9999 136.9498 255.3107)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">R</text>
+      <text transform="matrix(0.9935 -0.1136 0.1136 0.9935 149.3405 255.1358)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 4.25px 0px;">E</text>
+      <text transform="matrix(0.9771 -0.2127 0.2127 0.9771 161.326 253.6628)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 5.6625px 0px;">D</text>
+      <text transform="matrix(0.9585 -0.2851 0.2851 0.9585 173.3814 250.8807)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;"> </text>
+      <text transform="matrix(0.9257 -0.3782 0.3782 0.9257 178.4071 249.5065)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">B</text>
+      <text transform="matrix(0.8844 -0.4667 0.4667 0.8844 189.8821 244.8689)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 5.6625px 0px;">Y</text>
+      <text transform="matrix(0.8483 -0.5295 0.5295 0.8483 200.3031 239.3273)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px;"> </text>
+      <text transform="matrix(0.8079 -0.5893 0.5893 0.8079 204.7015 236.5873)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px; perspective-origin: 4.25px 0px;">F</text>
+      <text transform="matrix(0.7319 -0.6814 0.6814 0.7319 214.2703 229.7)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px; perspective-origin: 5.6625px 0px;">H</text>
+      <text transform="matrix(0.6814 -0.7319 0.7319 0.6814 223.6474 220.8051)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px;"> </text>
+      <text transform="matrix(0.6273 -0.7788 0.7788 0.6273 227.2239 217.1105)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">C</text>
+      <text transform="matrix(0.5295 -0.8483 0.8483 0.5295 234.947 207.5821)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px; perspective-origin: 5.6625px 0px;">A</text>
+      <text transform="matrix(0.4231 -0.9061 0.9061 0.4231 241.748 196.7735)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px;">M</text>
+      <text transform="matrix(0.3322 -0.9432 0.9432 0.3322 247.6152 184.1901)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">P</text>
+      <text transform="matrix(0.2127 -0.9771 0.9771 0.2127 251.5399 172.6431)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 5.6625px 0px;">U</text>
+      <text transform="matrix(0.1136 -0.9935 0.9935 0.1136 254.2981 160.048)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">S</text>
+      <text transform="matrix(3.797000e-02 -0.9993 0.9993 3.797000e-02 255.4815 148.1898)" class="st1 st7 st9" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3333px; line-height: 27.7333px;"> </text>
+      <text transform="matrix(-6.325001e-02 -0.998 0.998 -6.325001e-02 255.9891 142.9565)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 7.075px 0px;">W</text>
+      <text transform="matrix(-0.1635 -0.9865 0.9865 -0.1635 254.5434 126.0497)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px;">I</text>
+      <text transform="matrix(-0.2371 -0.9715 0.9715 -0.2371 253.653 119.9591)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 4.25px 0px;">E</text>
+      <text transform="matrix(-0.3322 -0.9432 0.9432 -0.3322 250.7399 108.3374)" class="st1 st7 st8" style="white-space: pre; fill: rgb(255, 255, 255); font-family: Barlow-Medium; font-size: 17.3334px; line-height: 27.7334px; perspective-origin: 5.6625px 0px;">N</text>
+    </g>
+  </g>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 22px; font-style: italic; font-weight: 700; white-space: pre;" x="30" y="119.139">Fueling Passion</text>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 22px; font-style: italic; font-weight: 700; white-space: pre;" x="270" y="269.737">Launching Dreams</text>
+</svg>
