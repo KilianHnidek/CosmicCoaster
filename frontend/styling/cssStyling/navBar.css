@@ -92,6 +92,11 @@ nav .menu li a {
   text-decoration: none;
   color: var(--ff-tertiaryColor);
 }
+nav .menu li a .logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 1.5rem;
+}
 
 .dropdown-toggle:active > .dropdown-menu, .dropdown-toggle:focus > .dropdown-menu, .dropdown-toggle:hover > .dropdown-menu {
   display: inline-flex;

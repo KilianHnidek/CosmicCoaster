@@ -77,6 +77,11 @@ nav {
         text-decoration: none;
         color: var(--ff-tertiaryColor);
 
+        .logo {
+          width: 70px;
+          height: 70px;
+          margin-right: 1.5rem;
+        }
       }
     }
   }
