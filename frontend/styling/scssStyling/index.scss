@@ -5,6 +5,7 @@
   border: 1px solid grey;
   box-shadow: 0 0 5px 0 grey;
   border-radius: 50%;
+  background: white;
 }
 
 
@@ -41,7 +42,6 @@ main {
         top: 70px;
 
 
-
         @include multipleOccurrences();
 
 
@@ -57,13 +57,12 @@ main {
         position: relative;
         left: 70px;
         transform-origin: -38px 30px;
-        animation: rotation 6s infinite linear;
+        animation: rotation 10s infinite linear;
 
 
         @include multipleOccurrences();
 
       }
-
 
 
       .mercury {
@@ -76,11 +75,10 @@ main {
         top: 20px;
 
         transform-origin: -130px;
-        animation: rotation 13s infinite linear;
+        animation: rotation 20s infinite linear;
 
         @include multipleOccurrences();
       }
-
 
 
       .mars {
@@ -95,7 +93,7 @@ main {
 
         @include multipleOccurrences();
         transform-origin: -320px;
-        animation: rotation 5s infinite linear;
+        animation: rotation 18s infinite linear;
       }
 
 
@@ -113,7 +111,6 @@ main {
 
         @include multipleOccurrences();
       }
-
 
 
       .saturn {
@@ -144,7 +141,7 @@ main {
       .titan {
         width: 15px;
         height: 15px;
-        background: white;
+
 
         position: relative;
         left: 120px;
@@ -157,7 +154,6 @@ main {
       .yapet {
         width: 10px;
         height: 10px;
-        background: white;
 
         position: relative;
         left: 130px;
@@ -193,5 +189,84 @@ main {
   display: flex;
   position: fixed;
 
+}
+
+
+
+// Copyright (c) 2023 by Giorgio Federici (https://codepen.io/giorgiofederici/pen/xgzEvW)
+@function generate-random-stars ($screen-width, $color, $density) {
+
+  $h-shadow: random($screen-width);
+  $v-shadow: random($screen-width);
+
+  $stars: '#{$h-shadow}px #{$v-shadow}px #{$color}';
+  @for $i from 2 through $density {
+    $h-shadow: random($screen-width);
+    $v-shadow: random($screen-width);
+
+    $stars: '#{$stars}, #{$h-shadow}px #{$v-shadow}px #{$color}';
+  }
+  @return unquote($stars);
+}
+
+@mixin stars-content($screen-width, $color, $density, $speed, $delay) {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: generate-random-stars($screen-width, $color, $density);
+  animation-name: glowing-stars;
+  animation-duration: $speed+s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: $delay+s;
+}
+
+
+#stars-group-1 {
+  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 0.3);
+}
+
+#stars-group-2 {
+  @include stars-content(1800, rgb(134, 134, 134), 200, 1, 0.5);
+}
+
+#stars-group-3 {
+  @include stars-content(1800, rgb(222, 222, 222), 200, 1, 0.8);
+}
+
+#stars-group-4 {
+  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 1.0);
+}
+
+#stars-group-5 {
+  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 1.2);
+}
+
+#stars-group-6 {
+  @include stars-content(1800, rgb(227, 227, 227), 200, 1, 1.5);
+}
+
+
+@keyframes glowing-stars {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
 
