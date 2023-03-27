@@ -39,9 +39,9 @@ main {
         left: -320px; top: -30px; // left & origin SAME; top half width
 
         transform-origin: 320px center;
-        animation: rotation 10s infinite linear;
+        animation: rotation 20s infinite linear;
 
-        box-shadow: 0 0 15px 0 lightblue !important;
+        box-shadow: 0 0 15px 0.2px blue !important;
         @include multipleOccurrences();
 
         .moon {
@@ -50,7 +50,7 @@ main {
           left: -30px; top: -30px;
 
           transform-origin: 60px 60px;
-          animation: rotation 10s infinite linear;
+          animation: rotation 20s infinite linear;
 
           box-shadow: 0 0 10px 0 grey !important;
           @include multipleOccurrences();
@@ -63,7 +63,7 @@ main {
         left: 200px; top: -20px;
 
         transform-origin: -200px center;
-        animation: rotation 20s infinite linear;
+        animation: rotation 40s infinite linear;
 
         @include multipleOccurrences();
       }
@@ -74,7 +74,7 @@ main {
         left: 400px; top: -25px;
 
         transform-origin: -400px center;
-        animation: rotation 18s infinite linear;
+        animation: rotation 36s infinite linear;
 
         @include multipleOccurrences();
       }
@@ -86,7 +86,7 @@ main {
         left: 700px; top: -50px;
 
         transform-origin: -700px center;
-        animation: rotation 31s infinite linear;
+        animation: rotation 62s infinite linear;
 
         @include multipleOccurrences();
       }
@@ -97,7 +97,7 @@ main {
         left: 750px; top: -40px;
 
         transform-origin: -750px center;
-        animation: rotation 42s infinite linear;
+        animation: rotation 84s infinite linear;
 
         @include multipleOccurrences();
 
@@ -107,7 +107,7 @@ main {
           left: -75px; top: -75px;
 
           transform-origin: 85px 85px;
-          animation: rotation 4s infinite linear;
+          animation: rotation 10s infinite linear;
 
           @include multipleOccurrences();
         }
@@ -118,7 +118,7 @@ main {
           left: 40px; top: -7.5px; // Minus half of parent
 
           transform-origin: -80px center; // Parent width/ height
-          animation: rotation 3s infinite linear;
+          animation: rotation 8s infinite linear;
 
           @include multipleOccurrences();
         }
