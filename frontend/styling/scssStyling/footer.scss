@@ -1,7 +1,161 @@
 @use 'general.scss';
 
-footer {
-	background: darkgrey;
-	grid-area: footer;
-  padding: 5px;
+.footer {
+  background-color: #26272b;
+  padding: 15px 10px 15px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+
+  hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+
+  hr.small {
+    margin: 20px 0;
+  }
+
+  h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+
+  a {
+    color: #737373;
+
+    &:hover {
+      color: #3366cc;
+      text-decoration: none;
+    }
+
+    &:active, &:focus {
+      color: #3366cc;
+      text-decoration: none;
+    }
+  }
+
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      display: block;
+    }
+
+    a {
+      color: #737373;
+
+      &:active, &:focus, &:hover {
+        color: #3366cc;
+        text-decoration: none;
+      }
+    }
+
+    &.inline {
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  .social-icons {
+    text-align: right;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-bottom: 4px;
+
+      &.title {
+        margin-right: 15px;
+        text-transform: uppercase;
+        color: #96a2b2;
+        font-weight: 700;
+        font-size: 13px;
+      }
+    }
+
+    a {
+      background-color: #eceeef;
+      color: #818a91;
+      font-size: 16px;
+      display: inline-block;
+      line-height: 44px;
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      margin-right: 8px;
+      border-radius: 100%;
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+
+      &:active, &:focus, &:hover {
+        color: #fff;
+        background-color: #29aafe;
+      }
+
+      &.facebook:hover {
+        background-color: #3b5998;
+      }
+
+      &.twitter:hover {
+        background-color: #00aced;
+      }
+
+      &.linkedin:hover {
+        background-color: #007bb6;
+      }
+
+      &.dribbble:hover {
+        background-color: #ea4c89;
+      }
+    }
+
+    &.size-sm {
+      a {
+        line-height: 34px;
+        height: 34px;
+        width: 34px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &.clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  @media (max-width: 991px) {
+    [class^="col-"] {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding-bottom: 0;
+
+    .copyright-text,
+    .social-icons {
+      text-align: center;
+    }
+
+    .social-icons {
+      li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600;
+      }
+    }
+  }
 }
