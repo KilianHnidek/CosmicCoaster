@@ -5,7 +5,6 @@
   border: 1px solid grey;
   box-shadow: 0 0 5px 0 grey;
   border-radius: 50%;
-  background: white;
 }
 
 
@@ -14,161 +13,130 @@ main {
   flex-direction: row;
 
   .orbit {
-    position: relative;
     overflow: hidden;
-    height: 1280px;
-    width: 100%;
+    height: 1280px; width: 100%;
+    border: 1px solid red;
+
+    .point {
+      position: relative;
+      left: 50%; top: 50%;
+      width: 0px; height: 0px;
+      border: 1px solid red;
 
 
-    .sun {
-      width: 200px;
-      height: 200px;
-      position: absolute;
+      .sun {
+        position: absolute;
+        width: 200px; height: 200px;
+        left: -100px; top: -100px;
 
-      @include multipleOccurrences();
-
-
-      left: 45%;
-      top: 350px;
-
+        box-shadow: 0 0 25px 0 orange !important;
+        @include multipleOccurrences();
+      }
 
       .earth {
-        width: 60px;
-        height: 60px;
+        position: absolute;
+        width: 60px; height: 60px;
+        left: -320px; top: -30px; // left & origin SAME; top half width
 
-
-        position: relative;
-        left: 300px;
-        top: 70px;
-
-
-        @include multipleOccurrences();
-
-
-        transform-origin: -200px;
-        animation: rotation 10s infinite linear;
-      }
-
-
-      .moon {
-        width: 20px;
-        height: 20px;
-
-        position: relative;
-        left: 70px;
-        transform-origin: -38px 30px;
+        transform-origin: 320px center;
         animation: rotation 10s infinite linear;
 
-
+        box-shadow: 0 0 15px 0 lightblue !important;
         @include multipleOccurrences();
 
-      }
+        .moon {
+          position: relative;
+          width: 20px; height: 20px;
+          left: -30px; top: -30px;
 
+          transform-origin: 60px 60px;
+          animation: rotation 10s infinite linear;
+
+          box-shadow: 0 0 10px 0 grey !important;
+          @include multipleOccurrences();
+        }
+      }
 
       .mercury {
-        width: 40px;
-        height: 40px;
+        position: absolute;
+        width: 40px; height: 40px;
+        left: 200px; top: -20px;
 
-
-        position: relative;
-        left: 230px;
-        top: 20px;
-
-        transform-origin: -130px;
+        transform-origin: -200px center;
         animation: rotation 20s infinite linear;
 
         @include multipleOccurrences();
       }
 
-
       .mars {
-        width: 50px;
-        height: 50px;
+        position: absolute;
+        width: 50px; height: 50px;
+        left: 400px; top: -25px;
 
-
-        position: relative;
-
-        left: 50 + 400px;
-        top: -25px;
+        transform-origin: -400px center;
+        animation: rotation 18s infinite linear;
 
         @include multipleOccurrences();
-        transform-origin: -320px;
-        animation: rotation 18s infinite linear;
       }
 
 
       .jupiter {
-        width: 100px;
-        height: 100px;
+        position: absolute;
+        width: 100px; height: 100px;
+        left: 700px; top: -50px;
 
-
-        position: relative;
-        left: 700px;
-        top: -100px;
-
-        transform-origin: -700px;
+        transform-origin: -700px center;
         animation: rotation 31s infinite linear;
 
         @include multipleOccurrences();
       }
 
-
       .saturn {
-        width: 80px;
-        height: 80px;
+        position: absolute;
+        width: 80px; height: 80px;
+        left: 750px; top: -40px;
 
-        position: relative;
-        left: 850px;
-        top: -190px;
-        @include multipleOccurrences();
-        transform-origin: -850px;
+        transform-origin: -750px center;
         animation: rotation 42s infinite linear;
 
-
-      }
-
-
-      .kol {
-        width: 110px;
-        height: 110px;
-
-        position: relative;
-        left: -14.5px;
-        top: -14.5px;
         @include multipleOccurrences();
-      }
 
-      .titan {
-        width: 15px;
-        height: 15px;
+        .yapet {
+          position: relative;
+          width: 10px; height: 10px;
+          left: -75px; top: -75px;
 
+          transform-origin: 85px 85px;
+          animation: rotation 4s infinite linear;
 
-        position: relative;
-        left: 120px;
-        top: 0px;
-        transform-origin: 0 85px;
-        animation: rotation 3s infinite linear;
-        @include multipleOccurrences();
-      }
+          @include multipleOccurrences();
+        }
 
-      .yapet {
-        width: 10px;
-        height: 10px;
+        .titan {
+          position: relative;
+          width: 15px; height: 15px;
+          left: 40px; top: -7.5px; // Minus half of parent
 
-        position: relative;
-        left: 130px;
-        top: 40px;
-        transform-origin: 0 100px;
+          transform-origin: -80px center; // Parent width/ height
+          animation: rotation 3s infinite linear;
 
-        animation: rotation 4s infinite linear;
+          @include multipleOccurrences();
+        }
 
-        @include multipleOccurrences();
+        .kol {
+          position: relative;
+          width: 100px; height: 100px;
+          left: -11px; top: -11px;
+
+          transform-origin: center center;
+
+          @include multipleOccurrences();
+        }
       }
 
       & > *:hover {
         animation-play-state: paused;
       }
-
 
       @keyframes rotation {
         100% {
@@ -178,19 +146,6 @@ main {
     }
   }
 }
-
-
-.spotlight {
-  display: flex;
-  position: fixed;
-}
-
-.team {
-  display: flex;
-  position: fixed;
-
-}
-
 
 
 // Copyright (c) 2023 by Giorgio Federici (https://codepen.io/giorgiofederici/pen/xgzEvW)
@@ -210,8 +165,8 @@ main {
 }
 
 @mixin stars-content($screen-width, $color, $density, $speed, $delay) {
-  width: 2px;
-  height: 2px;
+  width: 1px;
+  height: 1px;
   border-radius: 50%;
   opacity: 0;
   box-shadow: generate-random-stars($screen-width, $color, $density);
@@ -225,27 +180,27 @@ main {
 
 
 #stars-group-1 {
-  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 0.3);
+  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 0.3);
 }
 
 #stars-group-2 {
-  @include stars-content(1800, rgb(134, 134, 134), 200, 1, 0.5);
+  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 0.5);
 }
 
 #stars-group-3 {
-  @include stars-content(1800, rgb(222, 222, 222), 200, 1, 0.8);
+  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 0.8);
 }
 
 #stars-group-4 {
-  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 1.0);
+  @include stars-content(1800, rgb(63, 63, 63), 200, 1, 1.0);
 }
 
 #stars-group-5 {
-  @include stars-content(1800, rgb(189, 189, 189), 200, 1, 1.2);
+  @include stars-content(1800, rgb(65, 65, 65), 200, 1, 1.2);
 }
 
 #stars-group-6 {
-  @include stars-content(1800, rgb(227, 227, 227), 200, 1, 1.5);
+  @include stars-content(1800, rgb(0, 0, 0), 200, 1, 1.5);
 }
 
 

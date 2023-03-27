@@ -11,7 +11,8 @@
 :root {
   scroll-behavior: smooth;
   vertical-align: baseline;
-  background-color: transparent;
+  //background-color: transparent;
+  background-color: black;
 
   /* font for landing page main/second. heading */
   --ff-mainHeading: "Poppins", sans-serif;
@@ -27,9 +28,18 @@
   /* three colors for the website */
   /* https://color.adobe.com/create/color-wheel */
 
+  --ff-mainColor: #000000;
+  --ff-secondaryColor: whitesmoke;
+  --ff-tertiaryColor: #c4c4c4;
+
+
+  /*
   --ff-mainColor: #ffffff;
   --ff-secondaryColor: #2f2f2f;
   --ff-tertiaryColor: #c4c4c4;
+
+   */
+
 }
 
 /* --<>-- --<>-- --<>-- --<>-- --<>-- --<>-- */
