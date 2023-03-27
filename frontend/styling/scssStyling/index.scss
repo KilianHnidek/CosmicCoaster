@@ -2,8 +2,8 @@
 
 
 @mixin multipleOccurrences() {
-  border: 1px solid grey;
-  box-shadow: 0 0 5px 0 grey;
+  //border: 1px solid grey;
+  //box-shadow: 0 0 5px 0 grey;
   border-radius: 50%;
 }
 
@@ -55,7 +55,41 @@ main {
           box-shadow: 0 0 10px 0 grey !important;
           @include multipleOccurrences();
         }
+
+        .sph1 {
+          position: absolute;
+          width: 70px; height: 70px;
+          left: -6px; top: -6px;
+
+          transform-origin: center center;
+
+          @include multipleOccurrences();
+          border: 1px dashed rgb(154, 154, 154) !important;
+        }
+
+        .sph2 {
+          position: absolute;
+          width: 85px; height: 85px;
+          left: -13.5px; top: -13.5px;
+
+          transform-origin: center center;
+
+          @include multipleOccurrences();
+          border: 1px dashed rgb(154, 154, 154) !important;
+        }
+
+        .sph3 {
+          position: absolute;
+          width: 100px; height: 100px;
+          left: -20px; top: -20px;
+
+          transform-origin: center center;
+
+          @include multipleOccurrences();
+          border: 1px dashed rgb(154, 154, 154) !important;
+        }
       }
+
 
       .mercury {
         position: absolute;
@@ -124,7 +158,7 @@ main {
         }
 
         .kol {
-          position: relative;
+          position: absolute;
           width: 100px; height: 100px;
           left: -11px; top: -11px;
 
