@@ -37,5 +37,10 @@
 /* --<>-- --<>-- --<>-- --<>-- --<>-- --<>-- */
 /* to use @mixing functions type */
 /* @include NAMEofFunction(parameter if necessary); */
+footer {
+  background: darkgrey;
+  grid-area: footer;
+  padding: 5px;
+}
 
 /*# sourceMappingURL=footer.css.map */

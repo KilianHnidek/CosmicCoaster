@@ -1,1 +1,7 @@
 @use 'general.scss';
+
+footer {
+	background: darkgrey;
+	grid-area: footer;
+  padding: 5px;
+}
