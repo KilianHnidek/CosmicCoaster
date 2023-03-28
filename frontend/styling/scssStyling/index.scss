@@ -13,15 +13,37 @@ main {
   flex-direction: column;
 
   .orbit {
-    overflow: hidden;
+    //overflow: hidden;
     height: 1280px; width: 100%;
-    border: 1px solid red;
+    border: 1px solid transparent;
+
 
     .point {
       position: relative;
       left: 50%; top: 50%;
       width: 0px; height: 0px;
-      border: 1px solid red;
+      border: 1px solid transparent;
+
+      .slogan1 {
+        position: absolute;
+        width: 400px;
+
+        left: -500px; top: -1rem;
+
+        font-size: 2rem;
+        color: var(--ff-tertiaryColor);
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .slogan2 {
+        position: absolute;
+        width: 600px;
+        left: 150px; top: -1rem;
+
+        font-size: 2rem;
+        color: var(--ff-tertiaryColor);
+        font-family: 'Roboto', sans-serif;
+      }
 
 
       .sun {
@@ -41,7 +63,7 @@ main {
         transform-origin: 320px center;
         animation: rotation 20s infinite linear;
 
-        box-shadow: 0 0 15px 0.2px blue !important;
+        box-shadow: 0 0 2px 0.2px blue !important;
         @include multipleOccurrences();
 
         .moon {
@@ -128,9 +150,9 @@ main {
       .saturn {
         position: absolute;
         width: 80px; height: 80px;
-        left: 750px; top: -40px;
+        left: 850px; top: -40px;
 
-        transform-origin: -750px center;
+        transform-origin: -850px center;
         animation: rotation 84s infinite linear;
 
         @include multipleOccurrences();
@@ -173,9 +195,31 @@ main {
       }
 
       @keyframes rotation {
+        /*
+        0% {
+          transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+        }
         100% {
+          transform: rotateZ(-360deg) rotateX(-360deg) rotateY(-360deg);
+        }
+        /*
+        0% {
+          transform: rotateY(0turn) translate(2.75 * 5em) rotateX(-135deg) translate(2.75 * 2em) rotateZ(-135deg);
+        }
+        100% {
+          transform: rotateY(1turn) translate(2.75 * 5em) rotateX(585deg) translate(2.75 * 2em) rotateZ(-135deg);
+        }
+
+         */
+
+
+
+        100% {
+
           transform: rotate(-360deg);
         }
+
+
       }
     }
   }  
@@ -195,16 +239,16 @@ main {
   
       &.complete {
         .status {
-          border-top: 2px solid red;
+          border-top: 2px solid #6e5c5c;
   
           &:before {
-            background-color: red;
+            background-color: #6e5c5c;
             border: none;
             transition: all 200ms ease-in;
           }
   
           h4 {
-            color: red;
+            color: #6e5c5c;
             padding-top: 20px;
           }
         }
@@ -430,23 +474,23 @@ html, body {
 }
 
 #stars-group-2 {
-  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 0.5);
+  @include stars-content(1800, rgb(154, 154, 154), 200, 1, 0.5);
 }
 
 #stars-group-3 {
-  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 0.8);
+  @include stars-content(1800, rgb(208, 208, 208), 200, 1, 0.8);
 }
 
 #stars-group-4 {
-  @include stars-content(1800, rgb(63, 63, 63), 200, 1, 1.0);
+  @include stars-content(1800, rgb(231, 231, 231), 200, 1, 1.0);
 }
 
 #stars-group-5 {
-  @include stars-content(1800, rgb(65, 65, 65), 200, 1, 1.2);
+  @include stars-content(1800, rgb(250, 250, 250), 200, 1, 1.2);
 }
 
 #stars-group-6 {
-  @include stars-content(1800, rgb(0, 0, 0), 200, 1, 1.5);
+  @include stars-content(1800, rgb(255, 255, 255), 200, 1, 1.5);
 }
 
 
@@ -470,4 +514,3 @@ html, body {
     opacity: 0.1;
   }
 }
-

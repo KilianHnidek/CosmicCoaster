@@ -12,12 +12,13 @@
 :root {
   scroll-behavior: smooth;
   vertical-align: baseline;
-  background-color: #0b091c;
+  background-color: #1a1a1a;
   /* font for landing page main/second. heading */
   --ff-mainHeading: "Poppins", sans-serif;
   --ff-subHeading: "Sathu", sans-serif;
   /* main font family */
   font-family: "Times New Roman", sans-serif;
+  font-size: 1.2rem;
   /* clamp resizes according to window size */
   --fs-mainHeading: clamp(1.5rem, 7vw, 7rem);
   --fs-subHeading: clamp(1rem, 3vw, 4rem);
@@ -27,9 +28,12 @@
   --ff-secondaryColor: #dedede;
   --ff-tertiaryColor: #c4c4c4;
   /*
+
   --ff-mainColor: #ffffff;
   --ff-secondaryColor: #2f2f2f;
   --ff-tertiaryColor: #c4c4c4;
+
+
 
    */
 }
